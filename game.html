@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="CSS/style reset.css">
+   <link rel="stylesheet" href="CSS/stylegame.css"> 
+   <script type="text/javascript" src="JS/jogo.js" defer></script>
+   <title>Jogo da Memoria</title>
+
+</head>
+<body> 
+    <div class="conteiner">  <!-- Div principal tudo que estiver na pagina está dentro dela, acima dela só o <body> -->
+        <div class="imagens">
+            <img class="nuvemzinha nuv1" src="fotos/nuvem.png" alt="">
+            <img class="nuvemzinha nuv2" src="fotos/nuvem.png" alt="">
+            <img class="chao" src="fotos/chao.png" alt="">
+            <img src="fotos/mario.gif" alt="" class="mario">
+            <img src="fotos/luigi.gif" alt="" class="luigi">
+            <img src="fotos/bauser.gif" alt="" class="bauser">
+        </div> 
+
+        <div class="subconteiner">
+            <h1>Jogo da Memoria</h1>
+            <div class="info">
+                <div class="ab nome"><strong></strong></div>
+                <div class="ab cronometro"><strong id="segundos">Timer: 0</strong></div>
+                <div class="ab ponto"><strong id ="pontos">Pontuação</strong></div>
+                <div>
+                    <button class="link1"><a class="link" href="game.html">Reset Game</a></button>
+                </div>
+            </div>
+            
+            <div class="tabuleiro">
+                <div class="grid"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

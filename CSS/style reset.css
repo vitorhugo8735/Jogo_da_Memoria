@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@100&family=Tektur:wght@600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    font-family: "Tektur", sans-serif;
+}
+body{
+    background-image: url(estrelado.jpg);
+}
+
+
+@keyframes Andarilho {
+    0%{left: -150px;}
+    100%{left: 100%;}
+}
+@keyframes nuv1 {
+    0%{right:-305px;}
+    100%{right: 100%;} 
+}
+@keyframes nuv2 {
+    0%{right:-755px;}
+    100%{right: 100%;} 
+    
+}
+@keyframes bauser {
+    0%{left: -150px;}
+    100%{left: 100%;} 
+}
